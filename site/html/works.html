@@ -1,0 +1,83 @@
+<!DOCTYPE html>                   
+<html lang="en"> 
+<head>
+  <title>Jeffrey</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/works.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="Index.html">Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="AboutMe.html">About Me</a></li>
+          <div class="dropdown">
+              <li class="dropdown"><a href="works.html" class="dropbtn" onclick="myFunction()">Works</a>
+                  <div class="dropdown-content" id="myDropdown">
+                    <a href="sketches.html" id="selected">Sketches</a>
+                    <a href="paintings.html" id="deselected">Paintings</a>
+                    <a href="videos.html" id="deselected">Videos</a>
+                    <a href="GraphicModels.html" id="deselected">Graphic Models</a>
+                  </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+</nav>
+    <div class="container text-center">
+        <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <div class="img">
+                            <a href="sketches.html">Sketches
+                            <img src="../images/SketchbookCorp/Flower%20Vase.jpg" alt="Sketches" width="300" height="200">
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="img">
+                            <a href="paintings.html">Paintings
+                            <img src="../images/SketchbookCorp/CastleInTheSkySmall.JPG" alt="Paintings" width="300" height="200">
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="img">
+                            <a href="videos.html">Videos
+                            <img src="../images/SketchbookCorp/CoverPhoto.PNG" alt="Videos" width="300" height="200">
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="img">
+                            <a href="GraphicModels.html">Graphic Models
+                            <img src="../images/SketchbookCorp/Dolly.1.jpg" alt="Sketches" width="300" height="200">
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </thead>
+        </table>
+        </div>
+    </div>
+    <script src="../js/works.js"></script>
+</body>
+</html>

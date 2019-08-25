@@ -1,13 +1,3 @@
-
-#SubTitle{
-    color: white;
-    border-bottom-style: double;
-    border-bottom-color: white;
-}
-/*body{
-    background: url("../images/background2.png");
-    background-repeat: space;*/
-}
 nav{
     background-color: white;
     color: black;
@@ -28,7 +18,7 @@ nav{
     font-weight: bold;
 }
 .card {
-    width: 60%;
+    width: 75%;
     margin: 0 auto; /* Added */
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
@@ -43,4 +33,28 @@ hr {
 }
 #theEstablishment{
     background-color: black;
+}
+.img-container{
+  position:relative;
+  display:inline-block;
+}
+.img-container .overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+  opacity:0;
+  transition:opacity 500ms ease-in-out;
+}
+.img-container:hover .overlay{
+  opacity:1;
+}
+.overlay span{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:#fff;
 }

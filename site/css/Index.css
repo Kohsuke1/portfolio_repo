@@ -8,9 +8,6 @@ nav{
     right: -125px;
     width: 40%;
 }
-#selected{
-    color: #32CD32;
-}
 .nav-item {
     padding-right: 130px;
     font-family: "Marker Felt", fantasy;
@@ -28,8 +25,6 @@ hr {
     border: 0;
     width: 50%;
     color: #000000;
-    height: 1px;
-    padding: inherit;
 }
 #theEstablishment{
     background-color: black;
@@ -57,4 +52,7 @@ hr {
   left:50%;
   transform:translate(-50%,-50%);
   color:#fff;
+}
+h1{
+  padding-top: 20px;
 }

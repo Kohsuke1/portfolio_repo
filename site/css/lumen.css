@@ -1,6 +1,12 @@
 #title{
     text-align: center;
 }
-table td{
-    border: 6px black solid;
+table{
+    padding-top: 25px;
+}
+#section1{
+    text-align: center;
+}
+#section1Textpart{
+    width: 50%;
 }
